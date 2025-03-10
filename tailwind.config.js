@@ -14,7 +14,8 @@ export default {
       },
       
       colors:{
-        "primary" : "#8BC34A",
+        "primary" : "rgba(23,78,36)",
+        "nav": "#8BC34A",
         "secondary": "#",
         "primaryDark" : "rgba(23,78,36)",
         "gray": "#F6F7E9",

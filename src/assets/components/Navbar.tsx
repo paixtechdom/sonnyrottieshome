@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import logo from "../images/logo.jpg"
 import { Navigation } from "../Constants"
 import { useState } from "react"
 import { BiMenu, BiX } from "react-icons/bi"
@@ -29,7 +28,7 @@ const Navbar = () => {
                         <nav className={`flex flex-col lg:flex-row items-center w-full h-screen lg:gap-12 lg:h-fit lg:bg-transparent lg:justify-end transition-all duration-1000`}>
                             {
                                 Navigation.map((nav, i) => (
-                                    <Link to={`/${nav.link}`} key={i} className={`flex flex-col transition-all duration-1000 justify-between w-full lg:w-fit text-primary  border-b border-gray-200 lg:border-0 relative p-5 lg:p-0 cursor-pointer`} onClick={() => {
+                                    <Link to={`/${nav.link}`} key={i} className={`flex flex-col transition-all duration-1000 justify-between w-full lg:w-fit text-nav  border-b border-gray-200 lg:border-0 relative p-5 lg:p-0 cursor-pointer`} onClick={() => {
                                         setShowNav(false)
                                     }}>
 

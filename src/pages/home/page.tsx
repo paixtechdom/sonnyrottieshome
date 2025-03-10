@@ -16,9 +16,9 @@ const HomePage = () => {
 
             <Hero />
             
-            <AfterHero />
+            {/* <AfterHero /> */}
 
-            <section className="center w-full text-primary py-[20vh] overflow-hidden relative">
+            {/* <section className="center w-full text-primary py-[20vh] overflow-hidden relative">
                 <div className="w-11/12 lg:w-10/12 flex-col lg:flex-row center gap-[50px]">
                     <div className="w-full lg:w-5/12 center relative h-[50vh] overflow-hidden">
                         <img src={guy} alt="Image of Male Lab Scientist" className="object-cover w-full h-full"/>
@@ -37,7 +37,7 @@ const HomePage = () => {
                         />
                     </div>
                 </div>
-            </section>       
+            </section>        */}
 
         </main>
     )
