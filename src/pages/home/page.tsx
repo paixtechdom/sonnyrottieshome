@@ -1,8 +1,8 @@
-import { AfterHero } from "./sections/AfterHero"
+// import { AfterHero } from "./sections/AfterHero"
 import { Hero } from "./sections/Hero"
-import blur from "../../assets/images/blur.png"
-import guy from "../../assets/images/guy.jpg"
-import { Button } from "../../assets/components/Button"
+// import blur from "../../assets/images/blur.png"
+// import guy from "../../assets/images/guy.jpg"
+// import { Button } from "../../assets/components/Button"
 import { useEffect } from "react"
 import { ScrolltoTop } from "../../App"
 

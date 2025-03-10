@@ -1,5 +1,5 @@
 import { BsEnvelopeFill, BsGeoAltFill, BsTelephoneOutboundFill } from "react-icons/bs"
-import { ContactInfoInterface } from "../Interfaces"
+// import { ContactInfoInterface } from "../Interfaces"
 
 
 
