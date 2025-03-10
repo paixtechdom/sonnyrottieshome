@@ -33,7 +33,7 @@ const info  = [
 export const EachDog:FC<any> = ({dog, index}) => {
   return (
       <div className={`w-full h-fit center ${index % 2 == 0 ? "bg-zinc-100" : "" } py-9`}>
-      <div className={`w-11/12 lg:w-10/12 xl:w-9/12 h-fit flex flex-column lg:flex-row gap-12 lg:gap-20  center`}>
+      <div className={`w-11/12 lg:w-10/12 xl:w-9/12 h-fit flex flex-col lg:flex-row gap-12 lg:gap-20 center`}>
 
         <div className="flex relative center lg:h-[60vh] w-full lg:w-5/12">
           <img src={dog.img} alt={`Image for ${dog.name}`} className='w-full h-full object-cover'/>
